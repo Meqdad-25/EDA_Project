@@ -38,7 +38,7 @@ Combining the two strongest levers — winning markets *and* winning geographies
 
 ## Data & Data Dictionary
 
-**Source:** Startup Investments dataset from Crunchbase (https://www.crunchbase.com), provided as `startup_investments.csv`. A historical snapshot ending in early 2015 covering ~49,000 companies worldwide.
+**Source:** Startup Investments dataset from Crunchbase (https://www.crunchbase.com), provided as `startup_investments.csv`. A historical snapshot covering ~49,000 companies worldwide.
 
 **Analysis population:** 13,839 seed-stage companies (`seed > 0`).
 
@@ -60,7 +60,7 @@ Key columns used in the analysis (full dictionary in the notebook, Section 6):
 ## Conclusions & Recommendations
 
 1. **Tilt the $10M toward proven categories** — Finance, Health Care, Biotechnology, SaaS, and enterprise/analytics software. Deprioritize consumer Apps, Fashion, and generic E-Commerce.
-2. **Weight toward strong ecosystems** — favor US-headquartered startups and secondary hubs (Israel, Japan); apply extra scrutiny where historical follow-on rates are a fraction of the US rate (e.g. Chile, India).
+2. **Weight toward strong ecosystems** — favor US-headquartered startups and secondary hubs (Japan); apply extra scrutiny where historical follow-on rates are a fraction of the US rate (e.g. Chile, India).
 3. **Adopt a two-year follow-on checkpoint** — don't judge a company stalled before ~12 months, but if it hasn't raised again within 24 months, mark the investment inactive.
 4. **Expected impact** — this screen would historically have improved the fund's hit rate from ~14 to ~20 advancing companies per $10M, a ~48% increase from the same capital.
 
@@ -68,10 +68,9 @@ Key columns used in the analysis (full dictionary in the notebook, Section 6):
 
 ## Areas for Further Research
 
-- **Historical snapshot (2015):** recent-cohort follow-on rates are understated because young companies had less time to raise again.
 - **Correlation, not causation:** the screen identifies favorable odds, not guarantees; founder and team quality are not in the data.
 - **Survivorship / coverage bias:** Crunchbase self-reports, so quiet failures are under-represented.
-- **Next steps:** model time-to-follow-on with survival analysis, incorporate founder/team data, and validate the screen on post-2015 data before committing capital.
+- **Next steps:** model time-to-follow-on with survival analysis, incorporate founder/team data.
 
 ---
 
