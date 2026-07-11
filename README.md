@@ -23,6 +23,7 @@ Three factors separate winners from stallers. **Industry** is the strongest sing
 Combining the two strongest levers — winning markets *and* winning geographies — lifts the follow-on rate from **41.2% to 60.9%**. Applied to a $10M fund (~33 seed cheques at the $300K median), this screen would historically have raised the number of advancing companies from ~14 to ~20 — about **seven additional advancing companies from the same capital.**
 
 ![Follow-on rate by industry](presentation/images/market_chart.png)
+![Follow-on rate by industry](presentation/images/41%→61%_synthesis_chart.png)
 
 ---
 
